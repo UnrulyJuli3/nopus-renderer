@@ -1,6 +1,6 @@
 {
     "name": "nopus-renderer",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "main": "./dist/esm/index.js",
     "types": "./dist/types/index.d.ts",
@@ -15,7 +15,12 @@
         "types": "./dist/types/index.d.ts"
     },
     "keywords": [],
-    "author": "",
+    "author": "unrulyjuli3",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/UnrulyJuli3/nopus-renderer.git"
+    },
+    "homepage": "https://github.com/UnrulyJuli3/nopus-renderer",
     "license": "ISC",
     "devDependencies": {
         "@types/node": "^20.12.11",
