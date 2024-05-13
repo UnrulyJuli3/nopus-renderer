@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "paths": {},
+        "declaration": true,
+        "declarationDir": "dist/types",
+        "lib": [
+            "ESNext",
+            "DOM"
+        ],
+        "module": "ESNext",
+        "target": "ESNext",
+        "moduleResolution": "Node",
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

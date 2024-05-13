@@ -1,0 +1,27 @@
+{
+    "name": "nopus-renderer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/esm/index.js",
+    "types": "./dist/types/index.d.ts",
+    "scripts": {
+        "dev": "tsc -w",
+        "build": "tsc --project tsconfig.esm.json & tsc --project tsconfig.cjs.json"
+    },
+    "exports": {
+        "import": "./dist/esm/index.js",
+        "require": "./dist/cjs/index.js",
+        "default": "./dist/esm/index.js",
+        "types": "./dist/types/index.d.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.12.11",
+        "typescript": "^5.4.5"
+    },
+    "dependencies": {
+        "puppeteer": "^22.8.0"
+    }
+}
